@@ -36,15 +36,16 @@
     <div id="containerProduct">
         <div id="containerD">
             <div id="imageSection">
-                <img id="imageDetails" src="../img/red_velvet_cake.jpg"></img>
+                <img id="imageDetails" src="../img/strawberry_pudding.jpg"></img>
             </div>
             <div id="productDetails">
-                <h1>Red Velvet</h1>
-                <h4>Cake</h4>
+                <h1>Strawberry</h1>
+                <h4>Pudding</h4>
                 <div id="details">
-                    <h3>Rp 20.000</h3>
+                    <h3>Rp 17.000</h3>
                     <h3>Description</h3>
-                    <p>Kue mewah dengan warna merah khas, dilapisi cream cheese frosting yang lembut dan manis. Cocok untuk momen spesial atau sebagai hadiah istimewa.</p>
+                    <p>Puding stroberi lembut dengan rasa buah stroberi alami yang manis dan sedikit asam. Menyediakan sensasi rasa segar di setiap gigitan.
+                    </p>
                 </div>
                 <div id="button">
                     <button onclick="sendMessage()">Buy Now</button>
@@ -57,7 +58,7 @@
         function sendMessage() {
             const phoneNumber = "6288804036649";
     
-            const defaultMessage = "Halo, saya ingin melakukan pemesanan di *SweetHaven*.\nBerikut adalah rincian pesanan saya:\n \nNama Produk: *Red Velvet* \n \nJenis: *Cake* \n \nHarga: *Rp20.000* \n \nSilakan konfirmasi ketersediaannya.\nTerima kasih!";
+            const defaultMessage = "Halo, saya ingin melakukan pemesanan di *SweetHaven*.\nBerikut adalah rincian pesanan saya:\n \nNama Produk: *Strawberry* \n \nJenis: *Pudding* \n \nHarga: *Rp17.000* \n \nSilakan konfirmasi ketersediaannya.\nTerima kasih!";
     
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
             window.open(whatsappURL, '_blank');

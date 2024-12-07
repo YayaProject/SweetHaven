@@ -128,3 +128,8 @@ h2
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}

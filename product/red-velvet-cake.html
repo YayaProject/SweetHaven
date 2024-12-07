@@ -53,17 +53,17 @@
         </div>
     </div>
     
-<script>
-    function sendMessage() {
+    <script>
+        function sendMessage() {
             const phoneNumber = "6288804036649";
-
-            const defaultMessage = "Halo, saya ingin memesan kue dengan rincian berikut: \n \nNama Produk: Red Velvet \n \nJenis: Cake \n \nHarga: Rp20.000 \n \nSilakan konfirmasi ketersediaannya. Terima kasih!"
-            ;
-
-            const whatsappURL = 'https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}';
+    
+            const defaultMessage = "Halo, saya ingin melakukan pemesanan di *SweetHaven*.\nBerikut adalah rincian pesanan saya:\n \nNama Produk: *Red Velvet* \n \nJenis: *Cake* \n \nHarga: *Rp20.000* \n \nSilakan konfirmasi ketersediaannya. \nTerima kasih!";
+    
+            const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
             window.open(whatsappURL, '_blank');
-        }
-</script>
+        }
+    </script>
+    
 
 <!-- FOOTER -->
 <div id="4"></div>
